@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55A8672191E11160019123E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8671191E11160019123E /* Foundation.framework */; };
+		A55A8674191E11160019123E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8673191E11160019123E /* CoreGraphics.framework */; };
+		A55A8676191E11160019123E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8675191E11160019123E /* UIKit.framework */; };
+		A55A867C191E11160019123E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55A867A191E11160019123E /* InfoPlist.strings */; };
+		A55A867E191E11160019123E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55A867D191E11160019123E /* main.m */; };
+		A55A8682191E11160019123E /* CLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55A8681191E11160019123E /* CLTAppDelegate.m */; };
+		A55A8685191E11160019123E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A8683191E11160019123E /* Main.storyboard */; };
+		A55A8688191E11160019123E /* CLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55A8687191E11160019123E /* CLTViewController.m */; };
+		A55A868A191E11160019123E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55A8689191E11160019123E /* Images.xcassets */; };
+		A55A8691191E11160019123E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8690191E11160019123E /* XCTest.framework */; };
+		A55A8692191E11160019123E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8671191E11160019123E /* Foundation.framework */; };
+		A55A8693191E11160019123E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8675191E11160019123E /* UIKit.framework */; };
+		A55A869B191E11160019123E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55A8699191E11160019123E /* InfoPlist.strings */; };
+		A55A869D191E11160019123E /* JinrouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55A869C191E11160019123E /* JinrouTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55A8694191E11160019123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55A8666191E11160019123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55A866D191E11160019123E;
+			remoteInfo = Jinrou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A55A866E191E11160019123E /* Jinrou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jinrou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55A8671191E11160019123E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A55A8673191E11160019123E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A55A8675191E11160019123E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A55A8679191E11160019123E /* Jinrou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jinrou-Info.plist"; sourceTree = "<group>"; };
+		A55A867B191E11160019123E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A55A867D191E11160019123E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A55A867F191E11160019123E /* Jinrou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jinrou-Prefix.pch"; sourceTree = "<group>"; };
+		A55A8680191E11160019123E /* CLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTAppDelegate.h; sourceTree = "<group>"; };
+		A55A8681191E11160019123E /* CLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTAppDelegate.m; sourceTree = "<group>"; };
+		A55A8684191E11160019123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55A8686191E11160019123E /* CLTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTViewController.h; sourceTree = "<group>"; };
+		A55A8687191E11160019123E /* CLTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTViewController.m; sourceTree = "<group>"; };
+		A55A8689191E11160019123E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A55A868F191E11160019123E /* JinrouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinrouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55A8690191E11160019123E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A55A8698191E11160019123E /* JinrouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JinrouTests-Info.plist"; sourceTree = "<group>"; };
+		A55A869A191E11160019123E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A55A869C191E11160019123E /* JinrouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinrouTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55A866B191E11160019123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A8674191E11160019123E /* CoreGraphics.framework in Frameworks */,
+				A55A8676191E11160019123E /* UIKit.framework in Frameworks */,
+				A55A8672191E11160019123E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55A868C191E11160019123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A8691191E11160019123E /* XCTest.framework in Frameworks */,
+				A55A8693191E11160019123E /* UIKit.framework in Frameworks */,
+				A55A8692191E11160019123E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55A8665191E11160019123E = {
+			isa = PBXGroup;
+			children = (
+				A55A8677191E11160019123E /* Jinrou */,
+				A55A8696191E11160019123E /* JinrouTests */,
+				A55A8670191E11160019123E /* Frameworks */,
+				A55A866F191E11160019123E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55A866F191E11160019123E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55A866E191E11160019123E /* Jinrou.app */,
+				A55A868F191E11160019123E /* JinrouTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55A8670191E11160019123E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55A8671191E11160019123E /* Foundation.framework */,
+				A55A8673191E11160019123E /* CoreGraphics.framework */,
+				A55A8675191E11160019123E /* UIKit.framework */,
+				A55A8690191E11160019123E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55A8677191E11160019123E /* Jinrou */ = {
+			isa = PBXGroup;
+			children = (
+				A55A8680191E11160019123E /* CLTAppDelegate.h */,
+				A55A8681191E11160019123E /* CLTAppDelegate.m */,
+				A55A8683191E11160019123E /* Main.storyboard */,
+				A55A8686191E11160019123E /* CLTViewController.h */,
+				A55A8687191E11160019123E /* CLTViewController.m */,
+				A55A8689191E11160019123E /* Images.xcassets */,
+				A55A8678191E11160019123E /* Supporting Files */,
+			);
+			path = Jinrou;
+			sourceTree = "<group>";
+		};
+		A55A8678191E11160019123E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55A8679191E11160019123E /* Jinrou-Info.plist */,
+				A55A867A191E11160019123E /* InfoPlist.strings */,
+				A55A867D191E11160019123E /* main.m */,
+				A55A867F191E11160019123E /* Jinrou-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A55A8696191E11160019123E /* JinrouTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55A869C191E11160019123E /* JinrouTests.m */,
+				A55A8697191E11160019123E /* Supporting Files */,
+			);
+			path = JinrouTests;
+			sourceTree = "<group>";
+		};
+		A55A8697191E11160019123E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55A8698191E11160019123E /* JinrouTests-Info.plist */,
+				A55A8699191E11160019123E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55A866D191E11160019123E /* Jinrou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55A86A0191E11170019123E /* Build configuration list for PBXNativeTarget "Jinrou" */;
+			buildPhases = (
+				A55A866A191E11160019123E /* Sources */,
+				A55A866B191E11160019123E /* Frameworks */,
+				A55A866C191E11160019123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jinrou;
+			productName = Jinrou;
+			productReference = A55A866E191E11160019123E /* Jinrou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55A868E191E11160019123E /* JinrouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55A86A3191E11170019123E /* Build configuration list for PBXNativeTarget "JinrouTests" */;
+			buildPhases = (
+				A55A868B191E11160019123E /* Sources */,
+				A55A868C191E11160019123E /* Frameworks */,
+				A55A868D191E11160019123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55A8695191E11160019123E /* PBXTargetDependency */,
+			);
+			name = JinrouTests;
+			productName = JinrouTests;
+			productReference = A55A868F191E11160019123E /* JinrouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55A8666191E11160019123E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KenjiMatsuda;
+				TargetAttributes = {
+					A55A868E191E11160019123E = {
+						TestTargetID = A55A866D191E11160019123E;
+					};
+				};
+			};
+			buildConfigurationList = A55A8669191E11160019123E /* Build configuration list for PBXProject "Jinrou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55A8665191E11160019123E;
+			productRefGroup = A55A866F191E11160019123E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55A866D191E11160019123E /* Jinrou */,
+				A55A868E191E11160019123E /* JinrouTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55A866C191E11160019123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A868A191E11160019123E /* Images.xcassets in Resources */,
+				A55A867C191E11160019123E /* InfoPlist.strings in Resources */,
+				A55A8685191E11160019123E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55A868D191E11160019123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A869B191E11160019123E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55A866A191E11160019123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A8682191E11160019123E /* CLTAppDelegate.m in Sources */,
+				A55A8688191E11160019123E /* CLTViewController.m in Sources */,
+				A55A867E191E11160019123E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55A868B191E11160019123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A869D191E11160019123E /* JinrouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55A8695191E11160019123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55A866D191E11160019123E /* Jinrou */;
+			targetProxy = A55A8694191E11160019123E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A55A867A191E11160019123E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55A867B191E11160019123E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A55A8683191E11160019123E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55A8684191E11160019123E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A55A8699191E11160019123E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55A869A191E11160019123E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55A869E191E11160019123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A55A869F191E11160019123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55A86A1191E11170019123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jinrou/Jinrou-Prefix.pch";
+				INFOPLIST_FILE = "Jinrou/Jinrou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A55A86A2191E11170019123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jinrou/Jinrou-Prefix.pch";
+				INFOPLIST_FILE = "Jinrou/Jinrou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A55A86A4191E11170019123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jinrou.app/Jinrou";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jinrou/Jinrou-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JinrouTests/JinrouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A55A86A5191E11170019123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jinrou.app/Jinrou";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jinrou/Jinrou-Prefix.pch";
+				INFOPLIST_FILE = "JinrouTests/JinrouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55A8669191E11160019123E /* Build configuration list for PBXProject "Jinrou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55A869E191E11160019123E /* Debug */,
+				A55A869F191E11160019123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55A86A0191E11170019123E /* Build configuration list for PBXNativeTarget "Jinrou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55A86A1191E11170019123E /* Debug */,
+				A55A86A2191E11170019123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A55A86A3191E11170019123E /* Build configuration list for PBXNativeTarget "JinrouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55A86A4191E11170019123E /* Debug */,
+				A55A86A5191E11170019123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55A8666191E11160019123E /* Project object */;
+}
