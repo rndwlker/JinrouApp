@@ -21,6 +21,9 @@
 		A55A8693191E11160019123E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A8675191E11160019123E /* UIKit.framework */; };
 		A55A869B191E11160019123E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55A8699191E11160019123E /* InfoPlist.strings */; };
 		A55A869D191E11160019123E /* JinrouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55A869C191E11160019123E /* JinrouTests.m */; };
+		A5FB8DC7197D56CB004FFE75 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FB8DC6197D56CB004FFE75 /* UserViewController.m */; };
+		A5FB8DCA197D56EB004FFE75 /* SettingJobNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FB8DC9197D56EB004FFE75 /* SettingJobNumViewController.m */; };
+		A5FB8DCD197D570E004FFE75 /* DecideJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FB8DCC197D570E004FFE75 /* DecideJobViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		A55A8698191E11160019123E /* JinrouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JinrouTests-Info.plist"; sourceTree = "<group>"; };
 		A55A869A191E11160019123E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A55A869C191E11160019123E /* JinrouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinrouTests.m; sourceTree = "<group>"; };
+		A5FB8DC5197D56CB004FFE75 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		A5FB8DC6197D56CB004FFE75 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		A5FB8DC8197D56EB004FFE75 /* SettingJobNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingJobNumViewController.h; sourceTree = "<group>"; };
+		A5FB8DC9197D56EB004FFE75 /* SettingJobNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingJobNumViewController.m; sourceTree = "<group>"; };
+		A5FB8DCB197D570E004FFE75 /* DecideJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecideJobViewController.h; sourceTree = "<group>"; };
+		A5FB8DCC197D570E004FFE75 /* DecideJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecideJobViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +124,13 @@
 				A55A8680191E11160019123E /* CLTAppDelegate.h */,
 				A55A8681191E11160019123E /* CLTAppDelegate.m */,
 				A55A8683191E11160019123E /* Main.storyboard */,
+				A5FB8DCB197D570E004FFE75 /* DecideJobViewController.h */,
+				A5FB8DCC197D570E004FFE75 /* DecideJobViewController.m */,
+				A5FB8DC8197D56EB004FFE75 /* SettingJobNumViewController.h */,
+				A5FB8DC9197D56EB004FFE75 /* SettingJobNumViewController.m */,
 				A55A8686191E11160019123E /* CLTViewController.h */,
+				A5FB8DC5197D56CB004FFE75 /* UserViewController.h */,
+				A5FB8DC6197D56CB004FFE75 /* UserViewController.m */,
 				A55A8687191E11160019123E /* CLTViewController.m */,
 				A55A8689191E11160019123E /* Images.xcassets */,
 				A55A8678191E11160019123E /* Supporting Files */,
@@ -251,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55A8682191E11160019123E /* CLTAppDelegate.m in Sources */,
+				A5FB8DC7197D56CB004FFE75 /* UserViewController.m in Sources */,
 				A55A8688191E11160019123E /* CLTViewController.m in Sources */,
+				A5FB8DCA197D56EB004FFE75 /* SettingJobNumViewController.m in Sources */,
+				A5FB8DCD197D570E004FFE75 /* DecideJobViewController.m in Sources */,
 				A55A867E191E11160019123E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

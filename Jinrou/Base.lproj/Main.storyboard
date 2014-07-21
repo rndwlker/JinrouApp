@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="240" y="-1333"/>
         </scene>
-        <!--View Controller-->
+        <!--User View Controller-->
         <scene sceneID="LWx-Kd-GHK">
             <objects>
-                <viewController id="DQI-nF-3U0" customClass="CLTViewController" sceneMemberID="viewController">
+                <viewController id="DQI-nF-3U0" customClass="UserViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yqc-9g-1sC"/>
                         <viewControllerLayoutGuide type="bottom" id="E0x-8d-2oD"/>
@@ -51,7 +51,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ユーザー登録画面(UserViewController)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKc-34-lhy">
-                                <rect key="frame" x="36" y="300" width="291" height="27"/>
+                                <rect key="frame" x="9" y="293" width="291" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="787" y="-1333"/>
         </scene>
-        <!--View Controller-->
+        <!--Setting Job Num View Controller-->
         <scene sceneID="I4U-p6-Bsk">
             <objects>
-                <viewController id="d1g-qV-usU" sceneMemberID="viewController">
+                <viewController id="d1g-qV-usU" customClass="SettingJobNumViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ouh-3W-eT5"/>
                         <viewControllerLayoutGuide type="bottom" id="zcJ-ue-K1C"/>
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1167" y="-1333"/>
         </scene>
-        <!--View Controller-->
+        <!--Decide Job View Controller-->
         <scene sceneID="8Ia-vF-rSm">
             <objects>
-                <viewController id="90n-Ya-ydo" sceneMemberID="viewController">
+                <viewController id="90n-Ya-ydo" customClass="DecideJobViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bUF-qM-kBC"/>
                         <viewControllerLayoutGuide type="bottom" id="pcr-Cx-GHU"/>
