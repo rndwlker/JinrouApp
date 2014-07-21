@@ -457,6 +457,7 @@
 				A55A86A2191E11170019123E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A55A86A3191E11170019123E /* Build configuration list for PBXNativeTarget "JinrouTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				A55A86A5191E11170019123E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
