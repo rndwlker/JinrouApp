@@ -1,4 +1,4 @@
-ER図
+#ER図
 
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
